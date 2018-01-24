@@ -1,0 +1,14 @@
+<label>
+  <input #sfs (change)="changename(sfs.value)" type="text">
+</label>
+<div [style.background-color]="color">
+  <p>salem {{nom}}<br><br><br><br></p>
+
+
+</div>
+<label>
+  <input #sfscolor (change)="changecolor(sfscolor.value)" type="text">
+</label>
+<button  (click)="resetcolor()">Reset
+</button>
+
